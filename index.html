@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>TicTacToe</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+</head>
+
+<body>
+  <div id='banner'>
+    <div class='title'>
+      <span>Tic Tac Toe</span>
+    </div>
+    <div class='centerBanner'>
+      <span id='info'>Choose Game Piece!</span>
+    </div>
+  </div>
+  <div id='bannerTwo'>
+    <div class='title'>
+    </div>
+    <div class='centerBanner'>
+      <button id='xBtn' class='button'>X</button>
+      <button id='oBtn' class='button'>O</button>
+      <button id='playAgain' class='hide button'>Play Again?</button>
+    </div>
+  </div>
+  <table id='container'>
+    <tr>
+      <td id='squareOne' class='grid left-grid top-grid'></td>
+      <td id='squareTwo' class='grid top-grid'></td>
+      <td id='squareThree' class='grid top-grid right-grid'></td>
+    </tr>
+    <tr>
+      <td id='squareFour' class='grid left-grid'></td>
+      <td id='squareFive' class='grid'></td>
+      <td id='squareSix' class='grid right-grid'></td>
+    </tr>
+    <tr>
+      <td id='squareSeven' class='grid left-grid bot-grid'></td>
+      <td id='squareEight' class='grid bot-grid'></td>
+      <td id='squareNine' class='grid bot-grid right-grid'></td>
+    </tr>
+  </table>
+
+  <script src="scripts.js"></script>
+</body>
+
+</html>
